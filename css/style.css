@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 body{
 	background-color: #e8e8e8;
-	background: url('../img/lines.png') 50% 130px center no-repeat;
+	background: url('../img/lines.png') 50% 130px no-repeat;
 }	
 
 .main{
@@ -133,7 +133,5 @@ body{
 	color: white;
 	padding-left: 30px;
 	padding-top: 15px;
-	background: url('../img/icons/arrow.svg')  no-repeat;
-	background-position: 159px 15px;
-	
+	background: url('../img/icons/arrow.svg') 159px 15px no-repeat;
 }
