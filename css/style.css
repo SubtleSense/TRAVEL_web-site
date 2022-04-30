@@ -115,7 +115,7 @@ body{
 		text-decoration-line: line-through;
 	}
 .button{
-	display: block;
+	display: inline-block;
 	height: 44px;
 	width: 199px;
 	background-color: rgb(95, 184, 180);
