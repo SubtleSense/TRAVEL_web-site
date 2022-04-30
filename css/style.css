@@ -113,7 +113,7 @@ body{
 		opacity: 30%;
 		text-decoration-line: line-through;
 	}
-.button{
+.btn-link{
 	display: inline-block;
 	height: 44px;
 	width: 199px;
