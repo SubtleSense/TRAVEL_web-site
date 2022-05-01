@@ -104,6 +104,8 @@ li {
 	line-height: 36px;
 	font-weight: 700;
 	color: #273d46;
+	/* background: url('../img/icons/li.svg') 40px 5px no-repeat;
+	padding: 0px 0px 0px 80px; */
 }
 li::before{
 	content: '';
