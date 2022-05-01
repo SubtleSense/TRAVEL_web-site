@@ -87,6 +87,12 @@ h1{
 .p1,.p2 {
 	margin-bottom: 20px;
 }
+.text_container p::first-letter{
+	font-weight: 700;
+}
+.text_container p::first-line{
+	color: #0a455c98;
+}
 
 ul{
 	padding-bottom: 40px;
@@ -98,8 +104,11 @@ li {
 	line-height: 36px;
 	font-weight: 700;
 	color: #273d46;
+}
+li::before{
+	content: '';
 	background: url('../img/icons/li.svg') 40px 5px no-repeat;
-	padding: 0px 0px 0px 80px;	
+	padding: 0px 0px 0px 80px;
 }
 
 .i2 {
@@ -130,5 +139,12 @@ li {
 	color: white;
 	padding-left: 30px;
 	padding-top: 15px;
-	background: url('../img/icons/arrow.svg')  159px 15px no-repeat;
+	/* background: url('../img/icons/arrow.svg')  159px 15px no-repeat; */
+}
+
+.button a::after{
+	content: "";
+	background: url('../img/icons/arrow.svg') no-repeat;
+	padding: 12px 0px 0px 21px;
+	margin-left: 159px;
 }
